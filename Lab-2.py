@@ -1,6 +1,7 @@
 def polygon(n):
     import turtle
     wn = turtle.Screen()
+    wn.bgcolor("black")
     wn.title("Lab 2 turt")
 
     WeLit = turtle.Turtle()
