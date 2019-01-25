@@ -1,17 +1,9 @@
-def polygon(n):
-    import turtle
-    wn = turtle.Screen()
-    wn.bgcolor("black")
-    wn.title("Lab 2 turt")
+import turtle
+wn = turtle.Screen()
+WeLit = turtle.Turtle()
 
-    WeLit = turtle.Turtle()
-    WeLit.color("pink")
-    WeLit.pensize(5)
-
-    for i in range(n):
+for i in range(3):
         WeLit.forward(100)
-        WeLit.left(360/n)
+        WeLit.left(120)
 
-    wn.mainloop()
-
-polygon(25)
+wn.mainloop()
